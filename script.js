@@ -3,7 +3,7 @@ function addTrans(){
 var text = document.getElementById('text').value;
 var Amount = document.getElementById('amount').value;
 var minus = Amount.charAt(0);
-document.getElementById('money-plus').innerHTML=20000;
+// document.getElementById('money-plus').innerHTML=20000;
 var total = document.getElementById('money-plus').innerHTML;
 if(minus=="-"){
     var minus = document.getElementById('money-minus').innerHTML;

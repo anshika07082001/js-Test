@@ -31,8 +31,8 @@ document.getElementById('list').innerHTML = newEntry;
 }
 function deleteentry(args){
     let li = args.closest('li');
-    let nodes = arr.from(li.closest('ul').children);
+    let nodes = Array.from(li.closest('ul').children);
     let index = nodes.indexOf(li);
-    index.splice(index,1);
+    arr.splice(1,index);
     populate();
 }
